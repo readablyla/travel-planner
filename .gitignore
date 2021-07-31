@@ -3,3 +3,5 @@ node_modules
 
 # production
 build
+
+server/mongo/db
