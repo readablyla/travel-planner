@@ -1,0 +1,31 @@
+{
+  "name": "travel-planner-server",
+  "version": "1.0.0",
+  "description": "Back-end for the travel-planner app",
+  "main": "index.js",
+  "scripts": {
+    "serve": "nodemon ./app.js localhost 8080"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/readablyla/travel-planner.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/readablyla/travel-planner/issues"
+  },
+  "homepage": "https://github.com/readablyla/travel-planner#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.5.1",
+    "mongoose": "^5.13.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
